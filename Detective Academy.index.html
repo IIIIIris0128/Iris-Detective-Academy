@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dectective Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet", href="image.style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button" style="font-family: cursive;" >Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button" style="font-family: cursive;">Introduction</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button" style="font-family: cursive;">Details</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16" style="font-family: cursive;background-color: rgb(54, 50, 50) ;color: aliceblue; "><strong>Members of Detective Academy</strong></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="韬韬.jpg" alt="Guowentao" class="Guowentao" style="width:100%">
+      <h3 style="font-family:cursive;"><strong>Guo Wentao</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;">Peking University Guanghua School of Management </p>
+    </div>
+
+    <div class="w3-quarter">
+      <img src="up.jpg" alt="Puyixing" class="Puyixing"  style="width:100%">
+      <h3 style="font-family: cursive;"><strong>Pu Yixing</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;"> Johns Hopkins University</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="主任.jpg" alt="Zhoujunwei" class="Zhoujunwei" style="width:100%">
+      <h3 style="font-family: cursive;"><strong>Zhou Junwei</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;">  McGill University</p>
+    </div>
+
+      <div class="w3-quarter">
+      <img src="小齐.jpg" alt="Qisijun" class="Qisijun" style="width:100%">
+      <h3 style="font-family: cursive;"><strong>Qi Sijun</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;"> Communication University of China (CUC)</p>
+    </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="n7.jpg" alt="Caoenqi" class="Caoenqi" style="width:100%">
+      <h3 style="font-family: cursive;"><strong>Cao Enqi</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;"> Central Conservatory of Music (CCOM)
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="小何.jpg" alt="Heyunchen" class="Heyunchen" style="width:100%">
+      <h3 style="font-family: cursive;"><strong>He Yunchen</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;"> Beihang University (BUAA)</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="黄子.jpg" alt="Huangzihongfan" class="Huangzihongfan" style="width:100%">
+      <h3 style="font-family: cursive;"><strong>Huang Zihongfan</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;"> Berklee College of Music</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="KK.jpg" alt="Shikai" class="Shikai" style="width:100%">
+      <h3 style="font-family: cursive;"><strong>Shi Kai</strong></h3>
+      <p style="font-family: cursive;font-size: 20px;"> Sichuan Normal University (SNU)
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3 style="font-family: cursive;"><strong>Stylish group photo</strong> </h3><br>
+    <img src="大合影.jpg" alt="Me" class="bigphoto" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <div style="background-color: rgb(54, 50, 50) ;color: aliceblue;"><h4><b><i>Their reality shows</i></b></h4>
+      <h6><i> "Escape Room: Master Edition" "Jump into the Geography Book: A Travel Adventure" "Forest Evolution Theory"</i><br/>
+       <i>"Number One's Gathering" "Full Team Acceleration: Battle Season"</i></h6></div>
+      <p>Hey! Have you heard of the "Yuan Ren"（院人）? They are a group of treasure boys from the show "Detective Academy"! 🌟
+        Here, you’ll find the brainiacs **Puyixing** and **Guowentao**, the charming and talented **Qi Sijun** and **Zhou Junwei**, and the hilarious **Tang Jiuzhou** and **Shi Kai**—truly a triple threat of "brains + looks + humor"! 🎯  
+       <p>Not only do they crush it in all kinds of mind-bending games, but they also deliver moments that will have you laughing till your stomach hurts! 🤣 Whether it’s escaping, solving puzzles, or just roasting each other, the Yuan Ren always bring tons of joy and surprises! </p>
+     <p>Fans also call themselves "Yuan Ren," bonding over the show, shipping their favorite pairs, and creating inside jokes. Their motto, "Aim to be number one" (要做就做南波万), has become a shared mantra! 💪 If you love high-energy and hilarious variety shows, then **Great Detective Academy** and this adorable group of Yuan Ren are a must-watch! Come join the Yuan Ren family and dive into the fun! 🎉✨</p> </p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3 style="font-family: cursive;"><strong>Blogs Link</strong></h3>
+      <p><a href="https://weibo.com/mztxy?refer_flag=1008085010_" target="_blank" style="font-family: cursive;">Official Account</a></p>
+      <p><a href="https://weibo.com/n/文韬Stefan" target="_blank" style="font-family: cursive;">Guo Wentao</a></p>
+      <p><a href="https://weibo.com/n/蒲熠星" target="_blank" style="font-family: cursive;">Pu Yixing</a></p>
+      <p><a href="https://weibo.com/n/JZ周峻纬" target="_blank" style="font-family: cursive;">Zhou Junwei</a></p>
+      <p><a href="https://weibo.com/n/齐思钧" target="_blank" style="font-family: cursive;">Qi Sijun</a></p>
+      <p><a href="https://weibo.com/n/曹恩齐Vincent" target="_blank" style="font-family: cursive;">Cao Enqi</a></p>
+      <p><a href="https://weibo.com/n/何运晨Yancy" target="_blank" style="font-family: cursive;">He Yunchen</a></p>
+      <p><a href="https://weibo.com/n/黄子弘凡_Lars" target="_blank" style="font-family: cursive;">Huang Zihongfan</a></p>
+      <p><a href="https://weibo.com/n/石凯KAIK" target="_blank" style="font-family: cursive;">Shi Kai</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3 style="font-family: cursive;"><strong>Related Stores</strong></h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="狗芒的店.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large" style="font-family: cursive;"><a href="https://shop504003840.taobao.com/?ut_sk=1.Y9U1wIbHVKoDABD%2BdFqvLOLL_21380790_1740240858129.Copy.shop&weexShopSubTab=allitems&sourceType=shop&weexShopTab=allitemsbar&suid=5FF9AECF-2CEC-47BB-87A9-9DC83FF18D50&shareUniqueId=30566317944&un=21adb337bafb12d52ea862e4dea169e7&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_tk=VE0yQ2U4dEc1dlA%3D&cpp=1&shareurl=true&short_name=h.THbHb4MkXM3ojjw&bxsign=scdgrPAVVSE3zu69fyl_ZrBx9Ct6DU3ESl-E0h70WPgxDplULH52mCpZ_jZ1jTle7Vn-zj5Pwuu9q9zynvjFG6t0mg3FASeqGHovAkRwMH9cOJwc8n-8DEga31IgAiPH2Cv&app=macos_safari">Official Clothing Stores</a></span><br>
+          <span style="font-family: cursive;">Some clothes they wear in the shows</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="小开关.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large" style="font-family: cursive;"><a href="https://livetolead.tmall.com/shop/view_shop.htm?ut_sk=1.Y9U1wIbHVKoDABD%2BdFqvLOLL_21380790_1740239686272.Copy.shop&weexShopSubTab=allitems&sourceType=shop&weexShopTab=allitemsbar&suid=13411003-9D66-4805-951B-0E12C740901E&shareUniqueId=30566697167&un=21adb337bafb12d52ea862e4dea169e7&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_tk=Zk54RGU4dDdlS2E%3D&cpp=1&shareurl=true&short_name=h.THaSqGl3xFuybvx&bxsign=scdOOrVARHev-DEF8ddfUiAGKhliSnJwvmskSnseXlw7wicMr6-jNWSRuovniwUkdjP3FJ0Wqa7EOqe4QC4JNuS_gSjr_DE2pli20cgcXpP59cHHdiXaUsBz0M9qECl_WAr&app=macos_safari" >Live to Lead</a></span><br>
+          <span style="font-family: cursive;">Guo Wentao's store</span>
+        </li> 
+        <li class="w3-padding-16">
+          <img src="up的店.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large" style="font-family: cursive;"><a href="https://www.xiaohongshu.com/user/profile/654281ed00000000040081b7?xsec_token=YBW_lK3-ykUcQcd96tqkG9WXG9vE7P5x37QF3iRyhLeN0=&xsec_source=app_share&xhsshare=CopyLink&appuid=5f20633900000000010094a1&apptime=1740240565&share_id=996515e325cb4adea83a30ad8aa76603">Take it Eazin</a></span><br>
+          <span style="font-family: cursive;">Pu Yixing's store</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3 style="font-family: cursive;"><strong>Website Maker</strong></h3>
+      <p style="font-family: cursive;">Iris Huang 24455865</p>
+      <img src="IRIS本人.jpg" style="width: 200px;">
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

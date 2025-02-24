@@ -1,0 +1,113 @@
+.image1
+{
+    border-radius:  100%;
+    opacity: 0.5;
+
+}
+
+.image2
+{
+    border-radius: 50px;
+    opacity: 0.8;
+    
+
+}
+
+.image3
+{
+    filter:grayscale(100%);
+}
+
+.image4
+{
+    filter: blur(10px);
+}
+
+.image1:hover
+{
+    transform: translate(50px,50px);
+}
+
+.image2:hover
+{
+    transform: rotate(45deg);
+
+}
+
+.image3:hover
+{
+    transform: scale(2);
+
+}
+
+.image4:hover
+{
+    transform: skew(40deg,-15deg);
+}
+
+@keyframes rotation{
+    0% {transform: rotate(45deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.image5:hover
+{
+    animation-name: rotation;
+    animation-duration: 10s;
+}
+
+.Guowentao:hover
+{
+    transform: scale(1.5);
+}
+
+
+.Puyixing:hover
+{
+    transform: scale(1.5);
+}
+
+
+
+.Zhoujunwei:hover
+{
+    transform: scale(1.5);
+}
+
+
+.Qisijun:hover
+{
+    transform: scale(1.5);
+}
+
+.Caoenqi:hover
+{transform: scale(1.5);}
+
+.Heyunchen:hover
+{
+    transform: scale(1.5);
+}
+
+.Huangzihongfan:hover
+{
+    transform: scale(1.5);
+}
+
+.Shikai:hover
+{
+    transform: scale(1.5);
+}
+
+.Guowentao:hover
+{
+    transform: scale(1.5);
+}
+
+.daheying
+{
+    transform: scale(1.5);
+}
+
